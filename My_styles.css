@@ -1,0 +1,39 @@
+
+.message{
+	color: white;
+	font-size: 30px;
+	background-color: #00b2ff;
+	border: 1px solid #000000;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 8px;
+	opacity: 0.5;
+	text-align: center;
+}
+.success{
+	background-color: lime;
+}
+.fail{
+	background-color: red;
+}
+.warning{
+	background-color: yellow;
+	color: black;
+}
+.info{
+	background-color: blue;
+	width: 100px;
+}
+.link{
+	color: #0702f0;
+	font-size: 30px;
+}
+.link:hover{
+	color: #ffffff;
+	font-size: 35px;
+}
+.message:hover{
+	margin: 5px;
+	opacity: 1;
+	box-shadow: 3px 3px 5px #323232;
+}

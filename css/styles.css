@@ -30,14 +30,24 @@ content{
 	width: 100%;
 	text-align: left;
 }
-#menu{
+ul#menu{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+  padding: 0;
+	padding-left: 50px;
 	width: 100%;
 	height: 60px;
-	background: #00cccc;
+	background-color: #00cccc;
 }
-#menu a {
+ul#menu li{
+	display: inline;
+	float: left;
+}
+#menu li {
+	border-right: 2px solid #0099cc;
 	width: 165px;
-	height: 46px;
+	height: 20px;
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -46,6 +56,26 @@ content{
 	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+#menu li:hover{
+	background-color: #0099cc;
+
+}
+#menu li:first-child{
+	border-left: 2px solid #0099cc;
+}
+#menu li:last-child {
+	border-right: 2px solid #0099cc;
+}
+#menu a{
+	width: 165px;
+	height: 46px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: semibold;
+	font-size: 20px;
 }
 
 #menu a:hover {
@@ -101,6 +131,7 @@ padding-left: 55px;
 	font-size: 54px;
 	color: #c0c0c0;
 	display:table
+
 }
 #zapisi p{
 	display:table-cell;
@@ -110,4 +141,35 @@ aside{
 	float:right;
 	padding-top: 167px;
 	padding-right: 50px;
+}
+form{
+	position: relative;
+  width: 350px;
+	height: 44px;
+  margin: 0 auto;
+  background: #f0f0f0;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #F9F0DA;
 }
