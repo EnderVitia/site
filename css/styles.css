@@ -76,6 +76,7 @@ ul#menu li{
 	color: #ffffff;
 	font-weight: semibold;
 	font-size: 20px;
+
 }
 
 #menu a:hover {
@@ -93,24 +94,44 @@ padding-left: 55px;
 #logo h1{
 	text-decoration: none;
 	text-transform: lowercase;
-	font-family: 'Matura MT Script Capitals', arial;
+	font-family: 'Matura MT Script Capitals';
 	font-size: 58.33px;
 	color: #00cccc;
 	margin-top: -30px;
+	text-transform: capitalize
 }
 #logo h2{
 	font-size: 12.5px;
-	font-family: 'Segoe UI',inherit;
+	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
 	color: #00cccc;
-	margin-left: 35px;
-	margin-top: -20px;
+	margin-left: 80px;
+	margin-top: -24px;
 }
-#menu2{
+ul#menu2{
+	text-align: center;
+	list-style-type: none;
 	width: 95%;
 	height: 65px;
 	background: #696568;
 	margin-left: 46px;
 	margin-right: 50px;
+}
+ul#menu2 li{
+	display: inline;
+	float: left;
+}
+#menu2 li{
+	border-right: 2px solid #000000;
+	width: 165px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: semibold;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #menu2 a {
 	width: 165px;
@@ -121,17 +142,16 @@ padding-left: 55px;
 	color: #ffffff;
 	font-weight: semibold;
 	font-size: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 #zapisi{
-	width: 100%;
+	width: 95%;
 	height: 120px;
 	background: #f0f0f0;
 	font-size: 54px;
 	color: #c0c0c0;
-	display:table
-
+	display:table;
+	margin-left: 46px;
+	margin-right: 50px;
 }
 #zapisi p{
 	display:table-cell;
@@ -139,7 +159,7 @@ padding-left: 55px;
 }
 aside{
 	float:right;
-	padding-top: 167px;
+	padding-top: 47px;
 	padding-right: 50px;
 }
 form{
@@ -158,6 +178,8 @@ input {
   width: 100%;
   height: 42px;
   padding-left: 15px;
+	font-size: 25px;
+	font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
 }
 button {
   height: 42px;
